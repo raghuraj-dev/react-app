@@ -2,3 +2,7 @@
     height: 40vh;
     object-fit: cover;
 }
+.card{
+    width: 18rem;
+    margin: 10px;
+}
