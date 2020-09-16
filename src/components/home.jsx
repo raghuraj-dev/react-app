@@ -7,7 +7,7 @@ class Home extends Component {
                 <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img src="https://w-dog.pw/android-wallpapers/6/11/335535645876087/background-girl-headphones-music.jpg" alt="music" className="d-block w-100 slide"/>
+                        <img src="https://wallup.net/wp-content/uploads/2016/12/07/139539-Boyce_Avenue-music-musicians-singing-man_candy.jpg" alt="music" className="d-block w-100 slide"/>
                         </div>
                         <div className="carousel-item">
                         <img src="https://avante.biz/wp-content/uploads/Headphone-Girl-Wallpapers/Headphone-Girl-Wallpapers-016.jpg" alt="music"  className="d-block w-100 slide"/>
@@ -24,7 +24,8 @@ class Home extends Component {
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>
-                </div>                
+                </div> 
+                <div className="gradian"></div>               
             </div>
         )
     }

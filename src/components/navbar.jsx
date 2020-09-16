@@ -12,15 +12,12 @@ class Navbar extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <Link to="/" className="nav-link">Home <span className="sr-only">(current)</span></Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/song" className="nav-link">Songs</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/singer" className="nav-link">Singers</Link>
-                        </li>
+                            <li className="nav-item">
+                                <Link to="/" className="nav-link">Home <span className="sr-only">(current)</span></Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/song" className="nav-link">Songs</Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>
