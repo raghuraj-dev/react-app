@@ -15,6 +15,7 @@ class Songdetail extends Component {
                     <div className="col-sm-6">
                         <h1>{Fullsongs[lastURLSegment]['name']}</h1>
                         <hr/>
+                        <p className="lyrics">{Fullsongs[lastURLSegment]['lyrics']}</p>
                     </div>
                 </div>
             </div>

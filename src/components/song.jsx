@@ -11,7 +11,7 @@ class Song extends Component {
                     {
                         Fullsongs.map((item, i) => {
                             return(
-                                <div className="card">
+                                <div className="card" key={i}>
                                     <img className="card-img-top" src={item.image} alt={item.name+"'s image"}/>
                                     <div className="card-body">
                                         <h5 className="card-title">{item.movie}</h5>
