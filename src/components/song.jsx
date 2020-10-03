@@ -16,7 +16,7 @@ class Song extends Component {
                                     <div className="card-body">
                                         <h5 className="card-title">{item.movie}</h5>
                                         <p className="card-text">{item.name}</p>
-                                        <Link to={"song/"+item.id} className="btn btn-primary">View Lyrics</Link>
+                                        <Link to={"song/"+item.id} className="btn btn-success">View Lyrics</Link>
                                     </div>
                                 </div>
                             )

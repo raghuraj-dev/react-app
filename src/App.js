@@ -194,9 +194,9 @@ function App(){
         <Route path="/" component={Navbar}/>
         <Route exact path="/" component={Home}/>
         <Route exact path="/react-app" component={Home}/>
-        <Route path="/" component={Footer}/>
         <Route exact path="/song" component={Songs}/>
         <Route path="/song/:id" component={Songdetail}/>
+        <Route path="/" component={Footer}/>
       </BrowserRouter>
   )
 }

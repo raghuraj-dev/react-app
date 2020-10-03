@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
+import Trending from '../components/trnding'
 
 class Home extends Component {
     render(){
@@ -25,7 +27,15 @@ class Home extends Component {
                         <span className="sr-only">Next</span>
                     </a>
                 </div> 
-                <div className="gradian"></div>               
+                <div className="container">
+                    <div className="jumbotron mt-5">
+                        <h1 className="text-success">Music is a powerful tool <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">🎵</span></h1>      
+                        <p className="text-success">You can read tamil songs lyrics. Trending song lyrics are available..</p>
+                        <Link to="/song"><button className="btn btn-success float-right">Read Lyrics</button></Link>
+                    </div>
+                    <hr/>
+                    <Trending/>
+                </div>         
             </div>
         )
     }

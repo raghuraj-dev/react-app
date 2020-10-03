@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import {Link} from 'react-router-dom';
 import {Fullsongs} from '../App'
+import Trending from '../components/trnding'
 
 class Songdetail extends Component {
     render(){
@@ -18,6 +19,8 @@ class Songdetail extends Component {
                         <p className="lyrics">{Fullsongs[lastURLSegment]['lyrics']}</p>
                     </div>
                 </div>
+                <hr/>
+                <Trending/>
             </div>
         )
     }

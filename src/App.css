@@ -1,5 +1,6 @@
 nav{
-    box-shadow: 0 0 10px silver;
+    box-shadow: 0 5px 10px green;
+    margin-bottom: 10px;
 }
 .slide{
     height: 40vh;
@@ -8,6 +9,7 @@ nav{
 .card{
     width: 15rem;
     margin: 10px;
+    max-width: 18rem;
 }
 .card:hover{
     box-shadow: 0 0 10px silver;
@@ -29,4 +31,7 @@ nav{
 }
 .lyrics{
     text-align: center;
+}
+.page-footer{
+    background-color: lightgreen;
 }
